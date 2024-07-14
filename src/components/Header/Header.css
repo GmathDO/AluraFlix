@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 25px 60px;
+    background: #000000E5;
+}
+
+.boton-container{
+    display: flex;
+    gap: 25px;
+}
+
+.boton-container-mobile{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.desktop-content{
+    display: none;
+}
+
+.icon:active{
+    transform: scale(1.1);
+}
+
+@media screen and (width > 700px) {
+    .header{
+        justify-content: space-between;
+    }
+
+    .desktop-content{
+        display: block;
+    }
+
+    .mobile-content{
+        display: none;
+    }
+
+    .boton-container{
+        display: flex;
+    }
+}

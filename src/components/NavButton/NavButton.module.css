@@ -1,0 +1,17 @@
+.navButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 205px;
+    padding: 0 15px;
+    height: 54px;
+    border-radius: 50px;
+    border: 2px solid #2271D1;
+    color: #2271D1;
+    background-color: #2271D13D;
+}
+
+.navButton span{
+    font-size: 18px;
+}

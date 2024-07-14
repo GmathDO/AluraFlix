@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    font-size: 38px;
+    padding: 10% 0;
+    color: #2271D1;
+    background:#262626;
+}
+
+.textNumber{
+    margin: 0;
+}
+
+.text{
+    margin: 0;
+}
+
+@media screen and (width > 820px) {
+    .container{
+        font-size: 60px;
+    }
+}

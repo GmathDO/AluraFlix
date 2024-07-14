@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    color: #F5F5F5;
+    background:#262626
+}
+
+.textContainer{
+    text-align: center;
+    padding: 0 10% 20px;
+}
+
+.video{
+    width: 80%;
+}
+
+@media screen and (width > 829px) {
+    .video{
+        height: 500px;
+    }
+}
+
+@media screen and (width > 1440px) {
+    .video{
+        height: 750px;
+    }    
+}
